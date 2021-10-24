@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+* {
+    font-family: 'Baloo Paaji 2', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    padding-top: 10px;
+    display: flex;
+    background-color: #704AD3;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar img {
+    width: 60px;
+}
+
+.talkie {
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-text {
+    font: -webkit-control;
+    padding: 0 31px;
+    /* font-size: large; */
+    letter-spacing: 5%;
+    color: white;
+}
+
+.right button {
+    border: none;
+    background: white;
+    padding: 14px 16px;
+    border-radius: 10px;
+    color: #704AD3;
+    font-size: 1.2rem;
+}
+
+.container {
+    background-color: #704AD3;
+    height: 175vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a1 {
+    margin-top: 50px;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.container span:nth-of-type(2) {
+    width: 59%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+button {
+    font-weight: bolder;
+}
+
+.container button {
+    margin-top: 35px;
+    border: none;
+    background: white;
+    padding: 14px 16px;
+    border-radius: 10px;
+    color: #704AD3;
+    font-size: 1.2rem;
+}
+
+.caption {
+    color: white;
+}
+
+.img-span {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main-image {
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 13px 21px #ffffff8f;
+}
+
+.contents {
+    width: 80%;
+    margin: 200px auto;
+}
+
+.f-flext {
+    display: flex;
+    align-items: center;
+}
+
+.save-time {
+    display: block;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #704AD3;
+}
+
+.skip {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.des {
+    color: grey;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    display: inline-flex;
+    width: 71%;
+}
+
+.side-one {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 39px 1px #00000042;
+}
+
+.two {
+    width: 70%;
+}
+
+.tt {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+}
+
+.t1 {
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.ww {
+    width: 50%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* height: 100vh; */
+    background-color: #f8f6f1;
+}
+
+.bottom h1 {
+    font-size: 3rem;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.bottom p {
+    width: 70%;
+    margin: auto;
+}
+
+.bottom button {
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    background: white;
+    border: none;
+    border-radius: 16px;
+}
+
+.spc {
+    font-weight: bold;
+}
+
+.bottom span {
+    padding: 0px 36px;
+}
+
+.bottom span:hover {
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    background-color: #704AD3;
+}
+
+.allpics {
+    background-color: #f8f6f1;
+}
+
+.img-text {
+    display: flex;
+    width: 80%;
+    padding-top: 100px;
+    margin: auto;
+    /* align-items: center; */
+}
+
+.allpics img {
+    width: 100%
+}
+
+.c1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    margin: 50px auto;
+    height: 33vh;
+}
+
+.c2 h1 {
+    line-height: 1;
+}
+
+.c2 p {
+    color: gray;
+}
+
+.faq {
+    background-color: #f8f6f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq h1 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.a98 {
+    margin: 50px 0;
+    background: white;
+    padding: 17px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq p {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.fa-times-circle {
+    font-size: 1.5rem;
+}
+
+.bottom-pic {
+    flex-basis: 70%;
+}
+
+.des123 {
+    flex-basis: 30%;
+}
+
+.azb {
+    height: 50vh;
+    background-color: #704ad3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.azb h3 {
+    font-size: 1.5rem;
+}
+
+.azb h1 {
+    font-size: 3rem;
+}
+
+.azb button {
+    margin-top: 20px;
+    font-weight: bolder;
+    border: none;
+    background: white;
+    color: #704AD3;
+    padding: 20px;
+    border-radius: 17px;
+    font-size: 1.5rem;
+}
