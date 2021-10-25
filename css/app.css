@@ -54,7 +54,7 @@
 
 .container {
     background-color: #704AD3;
-    height: 175vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,6 +102,7 @@ button {
     width: 80%;
     border-radius: 12px;
     box-shadow: 0px 0px 13px 21px #ffffff8f;
+    margin-bottom: 100px;
 }
 
 .contents {
@@ -470,7 +471,7 @@ hr {
     }
 }
 
-@media (max-width:784px) {
+@media (max-width:899px) {
     .faq h1 {
         font-size: 4rem;
     }
