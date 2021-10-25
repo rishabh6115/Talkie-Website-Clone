@@ -250,6 +250,7 @@ button {
 }
 
 .faq {
+    height: fit-content;
     background-color: #f8f6f1;
     display: flex;
     flex-direction: column;
@@ -257,12 +258,13 @@ button {
 }
 
 .faq h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 50px 0;
 }
 
 .a98 {
-    margin: 50px 0;
+    width: 80%;
+    margin: 50px auto;
     background: white;
     padding: 17px;
     border-radius: 11px;
@@ -271,9 +273,17 @@ button {
     align-items: center;
 }
 
+.nn {
+    display: none;
+}
+
+.ans {
+    width: 75%;
+    margin: 20px auto;
+}
+
 .faq p {
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .fa-times-circle {
@@ -286,6 +296,10 @@ button {
 
 .des123 {
     flex-basis: 30%;
+}
+
+#pp {
+    margin-bottom: 100px;
 }
 
 .azb {
@@ -346,6 +360,10 @@ button {
     margin: 10px;
 }
 
+.small-device {
+    display: none;
+}
+
 .lft {
     background-color: #181C25;
     color: white;
@@ -354,6 +372,43 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.small-content {
+    display: none;
+}
+
+.sm {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.db {
+    display: none;
+}
+
+.fa-times-circle:hover {
+    cursor: pointer;
+}
+
+.a2 {
+    flex-basis: 70%;
+}
+
+.a23 {
+    flex-basis: 30%;
+}
+
+hr {
+    width: 5%;
+    margin: auto;
+    border-style: dotted;
+    border: 2px dotted gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: thick;
 }
 
 @media (max-width:900px) {
@@ -365,13 +420,6 @@ button {
         height: fit-content;
     }
     .r1 {
-        flex-direction: column;
-    }
-    .nav-bar {
-        flex-direction: column;
-        align-items: center;
-    }
-    .right {
         flex-direction: column;
     }
     .nav-bar-text {
@@ -387,6 +435,7 @@ button {
         margin: auto;
     }
     .img-text {
+        padding-top: 30px;
         flex-direction: column;
     }
     .c1 {
@@ -416,6 +465,70 @@ button {
     .azb h3 {
         margin-top: 80px;
     }
+    .lft {
+        height: 15vh;
+    }
 }
 
-@media (max-width:418px) {}
+@media (max-width:784px) {
+    .faq h1 {
+        font-size: 4rem;
+    }
+    .nav-bar {
+        height: 37vh;
+        box-shadow: 0px 0px 3px 1px #0000007a;
+        position: sticky;
+        top: 0;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 2px;
+        flex-direction: column;
+        transition: height 0.3s;
+    }
+    .right {
+        display: none;
+    }
+    .nav-bar img {
+        width: 74px;
+    }
+    .small-device {
+        display: block;
+        background: white;
+        border-radius: 50%;
+        padding: 26px 25px 0px 25px;
+        margin-right: 15px;
+    }
+    .sm {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .fa-bars {
+        font-size: 1.5rem;
+    }
+    .display-small {
+        margin-right: 21px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.4rem;
+        text-align: right;
+    }
+    .small-content {
+        display: block;
+        text-align: right;
+        margin: 14px 0;
+    }
+    .small-device:hover {
+        cursor: pointer;
+    }
+    .dis {
+        display: none;
+    }
+    .height {
+        transition: all 0.3s;
+        height: 13vh;
+    }
+    .fa-times {
+        font-size: 1.5rem;
+    }
+}

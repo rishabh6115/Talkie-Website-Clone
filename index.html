@@ -5,24 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Talkie</title>
+    <link rel="icon" href="pictures/Capture.PNG">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="main">
-        <div class="nav-bar">
-            <div class="left">
-                <span><img src="pictures/Capture.PNG" alt="">  </span>
-                <span class="talkie">Talkie</span>
+        <div class="nav-bar height ">
+            <div class="sm">
+                <div class="left">
+                    <span><img src="pictures/Capture.PNG" alt="">  </span>
+                    <span class="talkie">Talkie</span>
+                </div>
+                <div class="right">
+                    <span class="nav-bar-text">Features</span>
+                    <span class="nav-bar-text">Use Cases</span>
+                    <span class="nav-bar-text">We're Hiring</span>
+                    <span class="nav-bar-text">Sign in</span>
+                    <button>Get Started <span>->    </span> </button>
+                </div>
+                <div class="small-device">
+                    <i class="fas fa-bars tle"></i>
+                </div>
             </div>
-            <div class="right">
-                <span class="nav-bar-text">Features</span>
-                <span class="nav-bar-text">Use Cases</span>
-                <span class="nav-bar-text">We're Hiring</span>
-                <span class="nav-bar-text">Sign in</span>
-                <button>Get Started <span>->    </span> </button>
+            <div class="display-small ">
+                <div class="small-content dis">Features</div>
+                <div class="small-content dis">Use Cases</div>
+                <div class="small-content dis">Integrations</div>
             </div>
         </div>
         <div class="container">
@@ -44,6 +55,7 @@
                 </div>
             </div>
         </div>
+        <hr>
         <div class="contents">
             <div class="f-flext">
                 <div class="a23">
@@ -57,6 +69,7 @@
 
             </div>
         </div>
+        <hr>
         <div class="contents">
             <div class="f-flext">
                 <div class="a2">
@@ -73,18 +86,18 @@
             <div class="s-flex">
                 <h1>Use Cases</h1>
                 <p>Get on the same page, fast. Each space is loaded with collaborative surfaces so you can quickly take notes, capture to-dos, and share ideas.</p>
-                <button><span> Design Teams</span> <span> Product Teams</span>  <span> Leadership Teams</span></button>
+                <button><span id="design"> Design Teams</span> <span id="product"> Product Teams</span>  <span id="leadership"> Leadership Teams</span></button>
             </div>
 
         </div>
         <div class="allpics">
             <div class="img-text">
                 <div class="bottom-pic">
-                    <img src="pictures/Capture6.PNG" alt="">
+                    <img class="changing-pic" src="pictures/Capture6.PNG" alt="">
                 </div>
                 <div class="des123">
-                    <h1>Design Teams</h1>
-                    <p><span class="spc"> Quick Brainstorming hurdles ? </span>Start a conversation with teammates in one click and use screen sharing to bring them up to speed. If you can’t connect in real-time.</p>
+                    <h1 id="change-heading">Design Teams</h1>
+                    <p id="change-para"><span class="spc"> Quick Brainstorming hurdles ? </span>Start a conversation with teammates in one click and use screen sharing to bring them up to speed. If you can’t connect in real-time.</p>
                 </div>
             </div>
         </div>
@@ -100,34 +113,47 @@
         </div>
         <div class="faq">
 
+
             <div>
                 <h1>Frequently asked questions</h1>
+            </div>
 
-
-                <div class="a98">
-                    <h3>What problems do you solve?</h3>
-                    <span><i class="far fa-times-circle"></i></span>
-
-                </div>
-                <div class="a98">
-                    <h3>Do I need Talkie if we already use zoom/slack?</h3>
-                    <span><i class="far fa-times-circle"></i></span>
-
-                </div>
-                <div class="a98">
-                    <h3>How do I use Talkie in my workflow?</h3>
-                    <span><i class="far fa-times-circle"></i></span>
-
-                </div>
-                <div class="a98">
-                    <h3>What are the pricing plans</h3>
-                    <span><i class="far fa-times-circle"></i></span>
-
-                </div>
-                <p>Did we miss your question? <a> Drop us a line</a> and we will get back within 24 hours.</p>
-
+            <div class="a98">
+                <h3>What problems do you solve?</h3>
+                <span><i class="far fa-times-circle"></i></span>
 
             </div>
+            <div class="ans db">
+                <p>Talkie enables lightweight, spontaneous collaboration for staying connected. Our mission is to make remote communication frictions less & more expressive. A remote team does not have to feel like one.</p>
+            </div>
+            <div class="a98">
+                <h3>Do I need Talkie if we already use zoom/slack?</h3>
+                <span><i class="far fa-times-circle"></i></span>
+
+            </div>
+            <div class="ans db">
+                <p>Talkie is about what happens in-between meetings for spontaneous conversations, feeling connected and lightweight brainstorming.</p>
+            </div>
+            <div class="a98">
+                <h3>How do I use Talkie in my workflow?</h3>
+                <span><i class="far fa-times-circle"></i></span>
+
+            </div>
+            <div class="ans db">
+                <p>Join spontaneous conversations, summon people on the fly or send voice notes to your team & avoid too many meetings.</p>
+            </div>
+            <div class="a98">
+                <h3>What are the pricing plans</h3>
+                <span><i class="far fa-times-circle"></i></span>
+
+            </div>
+            <div class="ans db">
+                <p>In response to the current WFH situation as part of the unfolding Covid-19 crisis, we are offering talkie free for the next few months.</p>
+            </div>
+            <p id="pp">Did we miss your question? <a> Drop us a line</a> and we will get back within 24 hours.</p>
+
+
+
         </div>
         <div class="azb">
             <h3>Ready to try, Talkie?</h3>
