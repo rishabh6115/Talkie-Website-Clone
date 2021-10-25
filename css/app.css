@@ -392,6 +392,7 @@ button {
     .c1 {
         flex-direction: column;
         margin: 90px auto;
+        height: fit-content;
     }
     .bottom button {
         width: auto;
@@ -400,10 +401,21 @@ button {
     .bottom span {
         padding: 0px 10px;
     }
-    .container {
-        height: 200vh;
-    }
     .azb {
-        height: 80vh;
+        height: fit-content;
+    }
+    .azb button {
+        margin-bottom: 40px;
+    }
+    .container {
+        height: fit-content
+    }
+    .main-image {
+        margin-bottom: 50px;
+    }
+    .azb h3 {
+        margin-top: 80px;
     }
 }
+
+@media (max-width:418px) {}
