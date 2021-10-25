@@ -476,7 +476,7 @@ hr {
         font-size: 4rem;
     }
     .nav-bar {
-        height: 37vh;
+        height: 250px;
         box-shadow: 0px 0px 3px 1px #0000007a;
         position: sticky;
         top: 0;
@@ -527,7 +527,7 @@ hr {
     }
     .height {
         transition: all 0.3s;
-        height: 13vh;
+        height: 85px;
     }
     .fa-times {
         font-size: 1.5rem;
